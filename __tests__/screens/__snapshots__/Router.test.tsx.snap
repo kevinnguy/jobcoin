@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignIn screen renders send screen if user exists 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "margin": 15,
+    }
+  }
+>
+  <TextInput
+    autoCapitalize="none"
+    onChangeText={[Function]}
+    placeholder="Enter your address"
+    style={
+      Array [
+        Object {
+          "borderColor": "gray",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "fontSize": 16,
+          "height": 50,
+          "paddingLeft": 10,
+        },
+        Object {
+          "marginBottom": 15,
+        },
+      ]
+    }
+    value=""
+  />
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "blue",
+          "borderRadius": 8,
+          "height": 50,
+          "justifyContent": "center",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 18,
+          "fontWeight": "500",
+        }
+      }
+    >
+      Sign in
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`SignIn screen renders sign in screen if no user 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "margin": 15,
+    }
+  }
+>
+  <TextInput
+    autoCapitalize="none"
+    onChangeText={[Function]}
+    placeholder="Enter your address"
+    style={
+      Array [
+        Object {
+          "borderColor": "gray",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "fontSize": 16,
+          "height": 50,
+          "paddingLeft": 10,
+        },
+        Object {
+          "marginBottom": 15,
+        },
+      ]
+    }
+    value=""
+  />
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "blue",
+          "borderRadius": 8,
+          "height": 50,
+          "justifyContent": "center",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 18,
+          "fontWeight": "500",
+        }
+      }
+    >
+      Sign in
+    </Text>
+  </View>
+</View>
+`;
